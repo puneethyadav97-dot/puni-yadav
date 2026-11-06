@@ -1,0 +1,51 @@
+#div1{
+    height: 100px;
+    width: 100px;
+    padding: 1px solid rgb(21, 21, 21);
+    margin: 10px;
+    background-color: rgb(51, 2, 2);
+    border-radius: 50%;
+}
+#div2{
+    height: 100px;
+    width: 100px;
+    padding: 1px soild rgb(75, 95, 3);
+    margin: 10px;
+    background-color: rgb(29, 26, 0);
+    border-radius: 50%;
+}
+#div3{ 
+     height: 100px;
+    width: 100px;
+    padding: 1px soild rgb(0, 96, 19);
+    margin: 10px;
+    background-color: rgb(13, 29, 3);
+    border-radius: 50%;
+}
+#div1:hover{
+    background-color: red;
+    box-shadow: 10px 10px 1000px red;
+}
+#div2:hover{
+    background-color: rgb(250, 196, 4);
+     box-shadow: 10px 10px 1000px yellow;
+}
+#div3:hover{
+    background-color: greenyellow;
+     box-shadow: 10px 10px 1000px greenyellow;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    height: 410px;
+    width: 150px;
+    padding: 10px;
+    border: 2px solid rgb(243, 240, 240);
+    margin: 10px;
+    background-color: rgb(8, 8, 8);
+    border-radius: 20%px;
+}
